@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.platform = :osx
   s.osx.deployment_target = "10.10"
-  s.swift_version = '5.0'
+  s.swift_version = '5.5'
 
   s.source_files = 'SchnorrMusigSDKSwift/Classes/**/*'
 
