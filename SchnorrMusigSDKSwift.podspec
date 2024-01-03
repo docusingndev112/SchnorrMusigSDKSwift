@@ -23,11 +23,12 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'docusingndev112' => 'jairnidom@gmail.com' }
-  s.source           = { :git => 'https://github.com/docusingndev112/SchnorrMusigSDKSwift.git', :tag => '0.1.0' }
+  s.source           = { :git => 'https://github.com/docusingndev112/SchnorrMusigSDKSwift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform = :osx
   s.osx.deployment_target = "10.10"
+  s.swift_version = '5.0'
 
   s.source_files = 'SchnorrMusigSDKSwift/Classes/**/*'
 
